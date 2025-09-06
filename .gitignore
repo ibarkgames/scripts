@@ -1,0 +1,60 @@
+﻿# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter / notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Logs
+*.log
+
+# ---- PyCharm ----
+.idea/
+# if you want to share some configs, you can keep these instead:
+# .idea/codeStyles/
+# .idea/runConfigurations/
+
+# ---- OS files ----
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ---- Blender specific (optional) ----
+*.blend1
+*.blend2
+*.blend@
